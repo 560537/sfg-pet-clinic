@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c0afdd9-1846-425b-995d-88c3fa6863b8" name="Changes" comment="Adding owner page and controller. Closes #13">
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="725e1987-532d-484c-824f-82315b70adc3" />
+        <option name="url" value="https://github.com/560537/sfg-pet-clinic.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="24Eyxv1KAzCU1A7DtYrlIGYxtjz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="guru.springframework.sfgpetclinic.controllers" />
+      <recent name="guru.springframework.sfgpetclinic.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pet-clinic-web/src/main/resources" />
+      <recent name="$PROJECT_DIR$/.mvn/wrapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="guru.springframework.sfgpetclinic" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="guru.springframework.sfgpetclinic.controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SfgPetClinicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pet-clinic-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.sfgpetclinic.SfgPetClinicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c0afdd9-1846-425b-995d-88c3fa6863b8" name="Changes" comment="" />
+      <created>1643210290387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643210290387</updated>
+      <workItem from="1643380192213" duration="5601000" />
+      <workItem from="1643632371994" duration="3303000" />
+      <workItem from="1643877101325" duration="6795000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Project Add">
+      <created>1643211169414</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643211169414</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Project Add">
+      <created>1643211793669</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643211793669</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding POJOs. CLoses #2">
+      <created>1643357348976</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643357348976</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Refactoring to multimodule maven project. Closes #1">
+      <created>1643378124647</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643378124647</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implement Interfaces for services. Closes #5">
+      <created>1643646684143</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643646684143</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding BaseEntity. Closes #10">
+      <created>1643647066957</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643647066957</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Refactoring to common crud interface.Closes #11">
+      <created>1643879495478</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643879495478</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Impl Map based Services. Closes #6">
+      <created>1643881358803</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643881358803</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adding Index Page and contrller. Closes #8">
+      <created>1643892812996</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643892812996</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adding vets page and controller. Closes #7">
+      <created>1643893849140</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1643893849140</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adding owners page and controller. Closes #13">
+      <created>1643894277845</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1643894277845</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adding owner page and controller. Closes #13">
+      <created>1643894301847</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1643894301847</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Project Add" />
+    <MESSAGE value="adding POJOs. CLoses #2" />
+    <MESSAGE value="Refactoring to multimodule maven project. Closes #1" />
+    <MESSAGE value="Implement Interfaces for services. Closes #5" />
+    <MESSAGE value="Adding BaseEntity. Closes #10" />
+    <MESSAGE value="Refactoring to common crud interface.Closes #11" />
+    <MESSAGE value="Impl Map based Services. Closes #6" />
+    <MESSAGE value="Adding Index Page and contrller. Closes #8" />
+    <MESSAGE value="Adding vets page and controller. Closes #7" />
+    <MESSAGE value="Adding owners page and controller. Closes #13" />
+    <MESSAGE value="Adding owner page and controller. Closes #13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding owner page and controller. Closes #13" />
+  </component>
+</project>
