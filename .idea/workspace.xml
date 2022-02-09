@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c0afdd9-1846-425b-995d-88c3fa6863b8" name="Changes" comment="Adding Spring Config. Closes #22">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/target/classes/templates/index.html" afterDir="false" />
+    <list default="true" id="3c0afdd9-1846-425b-995d-88c3fa6863b8" name="Changes" comment="Adding Owners List and updated controller. Closes #16">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/target/classes/templates/owners/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/target/classes/templates/owners/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,6 +257,7 @@
     <MESSAGE value="Adding owner page and controller. Closes #13" />
     <MESSAGE value="Adding bootstrap for data. Closes #14" />
     <MESSAGE value="Adding Spring Config. Closes #22" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Spring Config. Closes #22" />
+    <MESSAGE value="Adding Owners List and updated controller. Closes #16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Owners List and updated controller. Closes #16" />
   </component>
 </project>
