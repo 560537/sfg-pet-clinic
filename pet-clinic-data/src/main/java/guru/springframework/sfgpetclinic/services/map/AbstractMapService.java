@@ -1,13 +1,12 @@
 package guru.springframework.sfgpetclinic.services.map;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import guru.springframework.sfgpetclinic.model.BaseEntity;
 
-public abstract class AbstractMapService<T, ID> { // Map implementation; Spring Data JPA implementation
+import java.util.*;
 
-    protected Map<ID, T> map = new HashMap<>(); // Adding and taking properties; this HashMap gets the generics of the ID and then type
+public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> { // Map implementation; Spring Data JPA implementation
+
+    protected Map<Long, T> map = new HashMap<>(); // Adding and taking properties; this HashMap gets the generics of the ID and then type
 
     Set<T> findAll(){
         return new HashSet<>(map.values());
@@ -17,13 +16,22 @@ public abstract class AbstractMapService<T, ID> { // Map implementation; Spring 
         return map.get(id); // return back that object out of the map
     }
 
-    T save(ID id, T object) {
-        map.put(id, object);
+    T save(T object) {
+
+        if(object != null){
+            if(object.getId() == null){
+                object.setId(getNextId());
+            }
+            map.put(object.getId(), object);
+        } else {
+            throw new RuntimeException("Object cannot be null");
+        }
 
         return object;
     }
 
     void deleteById(ID id) {
+
         map.remove(id);
     }
 
@@ -31,4 +39,15 @@ public abstract class AbstractMapService<T, ID> { // Map implementation; Spring 
         map.entrySet().removeIf(entry -> entry.getValue().equals(object));
     }
 
+    private Long getNextId(){ // change: ID !extends Long!
+        Long nextId = null;
+
+        try {
+            nextId = Collections.max(map.keySet()) + 1;
+        } catch (NoSuchElementException e) {
+            nextId = 1L;
+        }
+
+        return nextId;
+    }
 }
