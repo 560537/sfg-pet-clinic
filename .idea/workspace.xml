@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c0afdd9-1846-425b-995d-88c3fa6863b8" name="Changes" comment="Adding Vets List and updated controller. Closes #15">
+    <list default="true" id="3c0afdd9-1846-425b-995d-88c3fa6863b8" name="Changes" comment="Refactored Map Impl to abstract ID generation. Closes #23">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/AbstractMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/AbstractMapService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/OwnerServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/OwnerServiceMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/PetServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/PetServiceMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/VetServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/VetServiceMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/pet-clinic-data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/pet-clinic-data.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +86,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -127,7 +134,13 @@
       <workItem from="1643632371994" duration="3303000" />
       <workItem from="1643877101325" duration="11455000" />
       <workItem from="1644335260267" duration="3188000" />
-      <workItem from="1644503020795" duration="1993000" />
+      <workItem from="1644503020795" duration="2118000" />
+      <workItem from="1644579147041" duration="897000" />
+      <workItem from="1644836195824" duration="1515000" />
+      <workItem from="1645002300497" duration="502000" />
+      <workItem from="1645008686210" duration="587000" />
+      <workItem from="1645014466081" duration="782000" />
+      <workItem from="1645435213907" duration="769000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1643211169414</created>
@@ -248,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644396052909</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Refactored Map Impl to abstract ID generation. Closes #23">
+      <created>1644505615812</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1644505615812</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +301,7 @@
     <MESSAGE value="Adding Spring Config. Closes #22" />
     <MESSAGE value="Adding Owners List and updated controller. Closes #16" />
     <MESSAGE value="Adding Vets List and updated controller. Closes #15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Vets List and updated controller. Closes #15" />
+    <MESSAGE value="Refactored Map Impl to abstract ID generation. Closes #23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored Map Impl to abstract ID generation. Closes #23" />
   </component>
 </project>
