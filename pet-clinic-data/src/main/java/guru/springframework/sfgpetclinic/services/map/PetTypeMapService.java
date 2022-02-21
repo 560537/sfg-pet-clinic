@@ -9,8 +9,7 @@ public class PetTypeMapService extends AbstractMapService<PetType, Long> impleme
 
     @Override
     public Set<PetType> findAll() {
-        return null;
-    }
+        return null;    }
 
     @Override
     public PetType findById(Long id) {
