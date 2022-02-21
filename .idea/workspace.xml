@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c0afdd9-1846-425b-995d-88c3fa6863b8" name="Changes" comment="Added properties. Closes #28">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/PetTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/PetTypeMapService.java" afterDir="false" />
+    <list default="true" id="3c0afdd9-1846-425b-995d-88c3fa6863b8" name="Changes" comment="Added PetTypeMapService. Closes #29">
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/messages" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -133,7 +132,7 @@
       <workItem from="1645002300497" duration="502000" />
       <workItem from="1645008686210" duration="587000" />
       <workItem from="1645014466081" duration="782000" />
-      <workItem from="1645435213907" duration="6291000" />
+      <workItem from="1645435213907" duration="6643000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1643211169414</created>
@@ -324,7 +323,28 @@
       <option name="project" value="LOCAL" />
       <updated>1645458762531</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added PetTypeService. Closes #29">
+      <created>1645459237293</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1645459237293</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added PetTypeMapService. Closes #29">
+      <created>1645459253298</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1645459253298</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added PetTypeMapService. Closes #29">
+      <created>1645459269208</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1645459269208</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,8 +362,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Project Add" />
-    <MESSAGE value="adding POJOs. Closes #2" />
     <MESSAGE value="Refactoring to multimodule maven project. Closes #1" />
     <MESSAGE value="Implement Interfaces for services. Closes #5" />
     <MESSAGE value="Adding BaseEntity. Closes #10" />
@@ -367,6 +385,8 @@
     <MESSAGE value="Added visits, updated owner with pet relationship. Closes #26" />
     <MESSAGE value="Added specialities, added to vet. Closes #27" />
     <MESSAGE value="Added properties. Closes #28" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added properties. Closes #28" />
+    <MESSAGE value="Added PetTypeService. Closes #29" />
+    <MESSAGE value="Added PetTypeMapService. Closes #29" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added PetTypeMapService. Closes #29" />
   </component>
 </project>
