@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c0afdd9-1846-425b-995d-88c3fa6863b8" name="Changes" comment="Added layout to index page. Closes #19">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/target/pet-clinic-web-3.8.4.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/target/pet-clinic-web-3.8.4.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/target/surefire-reports/TEST-guru.springframework.sfgpetclinic.SfgPetClinicApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/target/surefire-reports/TEST-guru.springframework.sfgpetclinic.SfgPetClinicApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/target/surefire-reports/guru.springframework.sfgpetclinic.SfgPetClinicApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/target/surefire-reports/guru.springframework.sfgpetclinic.SfgPetClinicApplicationTests.txt" afterDir="false" />
+    <list default="true" id="3c0afdd9-1846-425b-995d-88c3fa6863b8" name="Changes" comment="Added layout to owners page. Closes #20">
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/vets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/vets/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +132,7 @@
       <workItem from="1645002300497" duration="502000" />
       <workItem from="1645008686210" duration="587000" />
       <workItem from="1645014466081" duration="782000" />
-      <workItem from="1645435213907" duration="3894000" />
+      <workItem from="1645435213907" duration="4223000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1643211169414</created>
@@ -293,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645438511853</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added layout to owners page. Closes #20">
+      <created>1645439968930</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1645439968930</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +333,7 @@
     <MESSAGE value="Copied templates form Spring Pet Clinic. Closes #18" />
     <MESSAGE value="Added wro4j plugin and config from Spring Pet Clinic. Closes #24" />
     <MESSAGE value="Added layout to index page. Closes #19" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added layout to index page. Closes #19" />
+    <MESSAGE value="Added layout to owners page. Closes #20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added layout to owners page. Closes #20" />
   </component>
 </project>
