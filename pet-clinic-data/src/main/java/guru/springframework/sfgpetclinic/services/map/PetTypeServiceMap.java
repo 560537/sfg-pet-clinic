@@ -5,29 +5,30 @@ import org.springframework.stereotype.Service;
 import java.util.Set;
 
 @Service
-public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
+public class PetTypeServiceMap extends AbstractServiceMap<PetType, Long> implements PetTypeService {
 
     @Override
     public Set<PetType> findAll() {
-        return null;    }
+        return super.findAll();
+    }
 
     @Override
     public PetType findById(Long id) {
-        return null;
+        return super.findById(id);
     }
 
     @Override
     public PetType save(PetType object) {
-        return null;
-    }
-
-    @Override
-    public void delete(PetType object) {
-
+        return super.save(object);
     }
 
     @Override
     public void deleteById(Long id) {
+        super.deleteById(id);
+    }
 
+    @Override
+    public void delete(PetType object) {
+        super.delete(object);
     }
 }
