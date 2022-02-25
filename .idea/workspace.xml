@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c0afdd9-1846-425b-995d-88c3fa6863b8" name="Changes" comment="Added specialities to vets on startup. Closes #34">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/notimplemented.html" afterDir="false" />
+    <list default="true" id="3c0afdd9-1846-425b-995d-88c3fa6863b8" name="Changes" comment="Fixed Broken Links. Closes #45">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/BaseEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +41,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -139,7 +142,9 @@
       <workItem from="1645466237328" duration="652000" />
       <workItem from="1645514872722" duration="40000" />
       <workItem from="1645514922173" duration="22000" />
-      <workItem from="1645514953266" duration="4695000" />
+      <workItem from="1645514953266" duration="5243000" />
+      <workItem from="1645617698043" duration="596000" />
+      <workItem from="1645629759862" duration="441000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1643211169414</created>
@@ -379,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645519509474</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Fixed Broken Links. Closes #45">
+      <created>1645521339286</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1645521339286</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +409,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Impl Map based Services. Closes #6" />
     <MESSAGE value="Adding Index Page and contrller. Closes #8" />
     <MESSAGE value="Adding vets page and controller. Closes #7" />
     <MESSAGE value="Adding owners page and controller. Closes #13" />
@@ -422,7 +433,8 @@
     <MESSAGE value="Added Pets and Contact info to owners on startup. Closes #33" />
     <MESSAGE value="Added Speciality Map Impl. Corrected 33. Closes #31" />
     <MESSAGE value="Added specialities to vets on startup. Closes #34" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added specialities to vets on startup. Closes #34" />
+    <MESSAGE value="Fixed Broken Links. Closes #45" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Broken Links. Closes #45" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
