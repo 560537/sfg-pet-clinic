@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c0afdd9-1846-425b-995d-88c3fa6863b8" name="Changes" comment="Implemented repositories. Closes #39">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/springdatajpa/OwnerSDJpaService.java" afterDir="false" />
+    <list default="true" id="3c0afdd9-1846-425b-995d-88c3fa6863b8" name="Changes" comment="Added spring data jpa service for owners. Closes #40">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/springdatajpa/VetSDJpaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/OwnerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/repositories/OwnerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/OwnerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/OwnerServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/OwnerServiceMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +108,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="guru.springframework.sfgpetclinic.services.springdatajpa" />
       <recent name="guru.springframework.sfgpetclinic.repositories" />
       <recent name="guru.springframework.sfgpetclinic.controllers" />
     </key>
@@ -151,7 +149,7 @@
       <workItem from="1645629759862" duration="1106000" />
       <workItem from="1646036913651" duration="7592000" />
       <workItem from="1646083618778" duration="599000" />
-      <workItem from="1646119145711" duration="850000" />
+      <workItem from="1646119145711" duration="1472000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Add">
       <created>1643211169414</created>
@@ -433,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646051074593</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Added spring data jpa service for owners. Closes #40">
+      <created>1646164375404</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1646164375404</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding Spring Config. Closes #22" />
     <MESSAGE value="Adding Owners List and updated controller. Closes #16" />
     <MESSAGE value="Adding Vets List and updated controller. Closes #15" />
     <MESSAGE value="Refactored Map Impl to abstract ID generation. Closes #23" />
@@ -476,7 +480,8 @@
     <MESSAGE value="Updated vet to use JPA. Closes #37" />
     <MESSAGE value="Updated Visit Entity. Closes #38" />
     <MESSAGE value="Implemented repositories. Closes #39" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented repositories. Closes #39" />
+    <MESSAGE value="Added spring data jpa service for owners. Closes #40" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added spring data jpa service for owners. Closes #40" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
