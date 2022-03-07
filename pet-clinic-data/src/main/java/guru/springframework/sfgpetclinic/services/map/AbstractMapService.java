@@ -4,7 +4,7 @@ import guru.springframework.sfgpetclinic.model.BaseEntity;
 
 import java.util.*;
 
-public abstract class AbstractServiceMap<T extends BaseEntity, ID extends Long> { // Map implementation; Spring Data JPA implementation
+public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> { // Map implementation; Spring Data JPA implementation
 
     protected Map<Long, T> map = new HashMap<>(); // Adding and taking properties; this HashMap gets the generics of the ID and then type
 
