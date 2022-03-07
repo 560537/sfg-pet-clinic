@@ -1,9 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: guru.springframework.sfgpetclinic.SfgPetClinicApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.138 s <<< FAILURE! - in guru.springframework.sfgpetclinic.SfgPetClinicApplicationTests
-contextLoads  Time elapsed: 0 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.624 s <<< FAILURE! - in guru.springframework.sfgpetclinic.SfgPetClinicApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
-Caused by: java.lang.RuntimeException: Pet Type is required
+Caused by: org.springframework.dao.InvalidDataAccessResourceUsageException: could not prepare statement; SQL [insert into owners (id, first_name, last _name, address, city, telephone) values (null, ?, ?, ?, ?, ?)]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement
+Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: 
+Table "OWNERS" not found; SQL statement:
+insert into owners (id, first_name, last _name, address, city, telephone) values (null, ?, ?, ?, ?, ?) [42102-200]
 
